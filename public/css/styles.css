@@ -46,7 +46,18 @@ img {
 }
 
 #title {
+    
     padding:10px;
+}
+
+#left-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right-header {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -65,6 +76,4 @@ table
     border-spacing: 10px;
     border-collapse: separate; 
     width: 100%;
-    
-  
 }
