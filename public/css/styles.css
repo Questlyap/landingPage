@@ -91,9 +91,30 @@ table
     font-weight: 700;
 }
 
-
-
-#hero{
-    background-image: url("adventure.png");
+.hero {
     width: 100%;
+     background-repeat: no-repeat;
+}
+
+#heroimg {
+    width: 100%;
+}
+
+#hero_div{
+    display: inline-block;
+    position: relative;
+}
+
+#hero_div img + .welcome_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 86%;
+    max-height: 100%;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+#hero_img {
+    opacity: 10%
 }
