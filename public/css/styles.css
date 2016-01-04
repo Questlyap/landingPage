@@ -91,10 +91,9 @@ table
     font-weight: 700;
 }
 
-.hero {
-    width: 100%;
-}
 
-#heroimg {
+
+#hero{
+    background-image: url("adventure.png");
     width: 100%;
 }
