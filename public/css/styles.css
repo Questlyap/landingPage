@@ -60,10 +60,15 @@ img {
     flex-wrap: wrap;
 }
 
+#title {
+    color: #4bf;
+    font-size: 26px;
+    font-weight: 300;
+}
+
 
 td
 {
-
 text-align: center;
 }
 
@@ -75,5 +80,21 @@ table
     padding: 10;
     border-spacing: 10px;
     border-collapse: separate; 
+    width: 100%;
+}
+
+#top{
+    padding-top: 20px;
+}
+
+.navButton {
+    font-weight: 700;
+}
+
+.hero {
+    width: 100%;
+}
+
+#heroimg {
     width: 100%;
 }
